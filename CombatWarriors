@@ -1,0 +1,1853 @@
+local CombatWarriors = Instance.new("ScreenGui")
+
+
+local main = Instance.new("Frame")
+
+
+local UICorner = Instance.new("UICorner")
+
+
+local Menu = Instance.new("TextButton")
+
+
+local UICorner_2 = Instance.new("UICorner")
+
+
+local UIGradient = Instance.new("UIGradient")
+
+
+local MenuFrame = Instance.new("Frame")
+
+
+local UICorner_3 = Instance.new("UICorner")
+
+
+local UIGradient_2 = Instance.new("UIGradient")
+
+
+local KillAura = Instance.new("TextButton")
+
+
+local UICorner_4 = Instance.new("UICorner")
+
+
+local TextLabel = Instance.new("TextLabel")
+
+
+local AutoParry = Instance.new("TextButton")
+
+
+local UICorner_5 = Instance.new("UICorner")
+
+
+local TextLabel_2 = Instance.new("TextLabel")
+
+
+local TextLabel_3 = Instance.new("TextLabel")
+
+
+local TextLabel_4 = Instance.new("TextLabel")
+
+
+local TextLabel_5 = Instance.new("TextLabel")
+
+
+local TextLabel_6 = Instance.new("TextLabel")
+
+
+local TextLabel_7 = Instance.new("TextLabel")
+
+
+local CreditFrame = Instance.new("Frame")
+
+
+local UICorner_6 = Instance.new("UICorner")
+
+
+local UIGradient_3 = Instance.new("UIGradient")
+
+
+local ScrollingFrame = Instance.new("ScrollingFrame")
+
+
+local TextLabel_8 = Instance.new("TextLabel")
+
+
+local TextLabel_9 = Instance.new("TextLabel")
+
+
+local TextLabel_10 = Instance.new("TextLabel")
+
+
+local TextLabel_11 = Instance.new("TextLabel")
+
+
+local TextLabel_12 = Instance.new("TextLabel")
+
+
+local TextLabel_13 = Instance.new("TextLabel")
+
+
+local TextLabel_14 = Instance.new("TextLabel")
+
+
+local FirstFrame = Instance.new("Frame")
+
+
+local UICorner_7 = Instance.new("UICorner")
+
+
+local UIGradient_4 = Instance.new("UIGradient")
+
+
+local TextLabel_15 = Instance.new("TextLabel")
+
+
+local TextLabel_16 = Instance.new("TextLabel")
+
+
+local TextLabel_17 = Instance.new("TextLabel")
+
+
+local TextLabel_18 = Instance.new("TextLabel")
+
+
+local TextLabel_19 = Instance.new("TextLabel")
+
+
+local TextLabel_20 = Instance.new("TextLabel")
+
+
+local TextLabel_21 = Instance.new("TextLabel")
+
+
+local Credit = Instance.new("TextButton")
+
+
+local UICorner_8 = Instance.new("UICorner")
+
+
+local Login = Instance.new("Frame")
+
+
+local UICorner_9 = Instance.new("UICorner")
+
+
+local UIGradient_5 = Instance.new("UIGradient")
+
+
+local box = Instance.new("Frame")
+
+
+local password = Instance.new("TextBox")
+
+
+local UICorner_10 = Instance.new("UICorner")
+
+
+local UIGradient_6 = Instance.new("UIGradient")
+
+
+local login = Instance.new("Frame")
+
+
+local button = Instance.new("TextButton")
+
+
+local UICorner_11 = Instance.new("UICorner")
+
+
+local UIGradient_7 = Instance.new("UIGradient")
+
+
+local TextLabel_22 = Instance.new("TextLabel")
+
+
+local TextLabel_23 = Instance.new("TextLabel")
+
+
+
+--Properties:
+
+
+
+CombatWarriors.Name = "Combat Warriors"
+
+
+CombatWarriors.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+
+CombatWarriors.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+CombatWarriors.ResetOnSpawn = false
+
+
+
+main.Name = "main"
+
+
+main.Parent = CombatWarriors
+
+
+main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+
+main.Position = UDim2.new(0.271282166, 0, 0.143665791, 0)
+
+
+main.Size = UDim2.new(0, 376, 0, 470)
+
+
+main.Visible = false
+
+
+
+UICorner.Parent = main
+
+
+
+Menu.Name = "Menu"
+
+
+Menu.Parent = main
+
+
+Menu.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+
+Menu.Size = UDim2.new(0, 169, 0, 50)
+
+
+Menu.Font = Enum.Font.SourceSans
+
+
+Menu.Text = "Menu"
+
+
+Menu.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Menu.TextScaled = true
+
+
+Menu.TextSize = 14.000
+
+
+Menu.TextWrapped = true
+
+
+
+UICorner_2.Parent = Menu
+
+
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+
+
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.00), NumberSequenceKeypoint.new(1.00, 0.44)}
+
+
+UIGradient.Parent = main
+
+
+
+MenuFrame.Name = "MenuFrame"
+
+
+MenuFrame.Parent = main
+
+
+MenuFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+
+MenuFrame.Position = UDim2.new(-0.00180491991, 0, 0.106382981, 0)
+
+
+MenuFrame.Size = UDim2.new(0, 376, 0, 419)
+
+
+
+UICorner_3.Parent = MenuFrame
+
+
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+
+
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+
+
+UIGradient_2.Parent = MenuFrame
+
+
+
+KillAura.Name = "Kill Aura"
+
+
+KillAura.Parent = MenuFrame
+
+
+KillAura.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+
+
+KillAura.Position = UDim2.new(0.0186170209, 0, 0.069212392, 0)
+
+
+KillAura.Size = UDim2.new(0, 362, 0, 39)
+
+
+KillAura.Font = Enum.Font.SourceSans
+
+
+KillAura.Text = "Kill Aura"
+
+
+KillAura.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+KillAura.TextScaled = true
+
+
+KillAura.TextSize = 14.000
+
+
+KillAura.TextWrapped = true
+
+
+KillAura.MouseButton1Down:connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/Kill-Aura/main/KillAura",true))()
+
+
+end)
+
+
+
+UICorner_4.Parent = KillAura
+
+
+
+TextLabel.Parent = MenuFrame
+
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel.BackgroundTransparency = 1.000
+
+
+TextLabel.Position = UDim2.new(0.0186170209, 0, 0.312649041, 0)
+
+
+TextLabel.Size = UDim2.new(0, 362, 0, 38)
+
+
+TextLabel.Font = Enum.Font.SourceSans
+
+
+TextLabel.Text = "Note :"
+
+
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel.TextScaled = true
+
+
+TextLabel.TextSize = 14.000
+
+
+TextLabel.TextWrapped = true
+
+
+
+AutoParry.Name = "Auto Parry"
+
+
+AutoParry.Parent = MenuFrame
+
+
+AutoParry.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+
+
+AutoParry.Position = UDim2.new(0.0186170209, 0, 0.186157495, 0)
+
+
+AutoParry.Size = UDim2.new(0, 362, 0, 39)
+
+
+AutoParry.Font = Enum.Font.SourceSans
+
+
+AutoParry.Text = "Auto Parry"
+
+
+AutoParry.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+AutoParry.TextScaled = true
+
+
+AutoParry.TextSize = 14.000
+
+
+AutoParry.TextWrapped = true
+
+
+AutoParry.MouseButton1Down:connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/WinningScript/AutoParry/main/Parry",true))()
+
+
+end)
+
+
+
+UICorner_5.Parent = AutoParry
+
+
+
+TextLabel_2.Parent = MenuFrame
+
+
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_2.BackgroundTransparency = 1.000
+
+
+TextLabel_2.Position = UDim2.new(0.0186170209, 0, 0.403341144, 0)
+
+
+TextLabel_2.Size = UDim2.new(0, 362, 0, 38)
+
+
+TextLabel_2.Font = Enum.Font.SourceSans
+
+
+TextLabel_2.Text = "Use Fluxus For the Script work"
+
+
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_2.TextScaled = true
+
+
+TextLabel_2.TextSize = 14.000
+
+
+TextLabel_2.TextWrapped = true
+
+
+
+TextLabel_3.Parent = MenuFrame
+
+
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_3.BackgroundTransparency = 1.000
+
+
+TextLabel_3.Position = UDim2.new(0.0186170209, 0, 0.494033277, 0)
+
+
+TextLabel_3.Size = UDim2.new(0, 362, 0, 38)
+
+
+TextLabel_3.Font = Enum.Font.SourceSans
+
+
+TextLabel_3.Text = "Don't know where Fluxus is Here link"
+
+
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_3.TextScaled = true
+
+
+TextLabel_3.TextSize = 14.000
+
+
+TextLabel_3.TextWrapped = true
+
+
+
+TextLabel_4.Parent = MenuFrame
+
+
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_4.BackgroundTransparency = 1.000
+
+
+TextLabel_4.Position = UDim2.new(0.0186170209, 0, 0.58472538, 0)
+
+
+TextLabel_4.Size = UDim2.new(0, 362, 0, 38)
+
+
+TextLabel_4.Font = Enum.Font.SourceSans
+
+
+TextLabel_4.Text = "https://fluxteam.xyz/"
+
+
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_4.TextScaled = true
+
+
+TextLabel_4.TextSize = 14.000
+
+
+TextLabel_4.TextWrapped = true
+
+
+
+TextLabel_5.Parent = MenuFrame
+
+
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_5.BackgroundTransparency = 1.000
+
+
+TextLabel_5.Position = UDim2.new(0.0186170209, 0, 0.675417483, 0)
+
+
+TextLabel_5.Size = UDim2.new(0, 362, 0, 38)
+
+
+TextLabel_5.Font = Enum.Font.SourceSans
+
+
+TextLabel_5.Text = "it will not work on KRNL"
+
+
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_5.TextScaled = true
+
+
+TextLabel_5.TextSize = 14.000
+
+
+TextLabel_5.TextWrapped = true
+
+
+
+TextLabel_6.Parent = MenuFrame
+
+
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_6.BackgroundTransparency = 1.000
+
+
+TextLabel_6.Position = UDim2.new(0.0186170209, 0, 0.766109586, 0)
+
+
+TextLabel_6.Size = UDim2.new(0, 362, 0, 38)
+
+
+TextLabel_6.Font = Enum.Font.SourceSans
+
+
+TextLabel_6.Text = "Also Flux is free"
+
+
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_6.TextScaled = true
+
+
+TextLabel_6.TextSize = 14.000
+
+
+TextLabel_6.TextWrapped = true
+
+
+
+TextLabel_7.Parent = MenuFrame
+
+
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_7.BackgroundTransparency = 1.000
+
+
+TextLabel_7.Position = UDim2.new(0.0186170209, 0, 0.856801689, 0)
+
+
+TextLabel_7.Size = UDim2.new(0, 362, 0, 38)
+
+
+TextLabel_7.Font = Enum.Font.SourceSans
+
+
+TextLabel_7.Text = "Fun Fact: It's not made by me cause its on YT i see"
+
+
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_7.TextScaled = true
+
+
+TextLabel_7.TextSize = 14.000
+
+
+TextLabel_7.TextWrapped = true
+
+
+
+CreditFrame.Name = "CreditFrame"
+
+
+CreditFrame.Parent = main
+
+
+CreditFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+
+CreditFrame.Position = UDim2.new(0.000854654529, 0, 0.106382981, 0)
+
+
+CreditFrame.Size = UDim2.new(0, 373, 0, 418)
+
+
+CreditFrame.Visible = false
+
+
+
+UICorner_6.Parent = CreditFrame
+
+
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+
+
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+
+
+UIGradient_3.Parent = CreditFrame
+
+
+
+ScrollingFrame.Parent = CreditFrame
+
+
+ScrollingFrame.Active = true
+
+
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+ScrollingFrame.BackgroundTransparency = 1.000
+
+
+ScrollingFrame.Size = UDim2.new(0, 373, 0, 418)
+
+
+
+TextLabel_8.Parent = ScrollingFrame
+
+
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_8.BackgroundTransparency = 1.000
+
+
+TextLabel_8.Position = UDim2.new(0.0444007032, 0, 0.00986425951, 0)
+
+
+TextLabel_8.Size = UDim2.new(0, 338, 0, 50)
+
+
+TextLabel_8.Font = Enum.Font.Ubuntu
+
+
+TextLabel_8.Text = "Credit"
+
+
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_8.TextScaled = true
+
+
+TextLabel_8.TextSize = 14.000
+
+
+TextLabel_8.TextWrapped = true
+
+
+
+TextLabel_9.Parent = ScrollingFrame
+
+
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_9.BackgroundTransparency = 1.000
+
+
+TextLabel_9.Position = UDim2.new(0.0444007032, 0, 0.0696728677, 0)
+
+
+TextLabel_9.Size = UDim2.new(0, 338, 0, 50)
+
+
+TextLabel_9.Font = Enum.Font.Ubuntu
+
+
+TextLabel_9.Text = "To"
+
+
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_9.TextScaled = true
+
+
+TextLabel_9.TextSize = 14.000
+
+
+TextLabel_9.TextWrapped = true
+
+
+
+TextLabel_10.Parent = ScrollingFrame
+
+
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_10.BackgroundTransparency = 1.000
+
+
+TextLabel_10.Position = UDim2.new(0.0444007032, 0, 0.12948148, 0)
+
+
+TextLabel_10.Size = UDim2.new(0, 338, 0, 50)
+
+
+TextLabel_10.Font = Enum.Font.Ubuntu
+
+
+TextLabel_10.Text = "WinningScript#9193"
+
+
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_10.TextScaled = true
+
+
+TextLabel_10.TextSize = 14.000
+
+
+TextLabel_10.TextWrapped = true
+
+
+
+TextLabel_11.Parent = ScrollingFrame
+
+
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_11.BackgroundTransparency = 1.000
+
+
+TextLabel_11.Position = UDim2.new(0.0444007032, 0, 0.177328363, 0)
+
+
+TextLabel_11.Size = UDim2.new(0, 338, 0, 50)
+
+
+TextLabel_11.Font = Enum.Font.Ubuntu
+
+
+TextLabel_11.Text = "For Making this GUI"
+
+
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_11.TextScaled = true
+
+
+TextLabel_11.TextSize = 14.000
+
+
+TextLabel_11.TextWrapped = true
+
+
+
+TextLabel_12.Parent = ScrollingFrame
+
+
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_12.BackgroundTransparency = 1.000
+
+
+TextLabel_12.Position = UDim2.new(0.0444007032, 0, 0.228763774, 0)
+
+
+TextLabel_12.Size = UDim2.new(0, 338, 0, 50)
+
+
+TextLabel_12.Font = Enum.Font.Ubuntu
+
+
+TextLabel_12.Text = "And"
+
+
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_12.TextScaled = true
+
+
+TextLabel_12.TextSize = 14.000
+
+
+TextLabel_12.TextWrapped = true
+
+
+
+TextLabel_13.Parent = ScrollingFrame
+
+
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_13.BackgroundTransparency = 1.000
+
+
+TextLabel_13.Position = UDim2.new(0.0444007032, 0, 0.288572371, 0)
+
+
+TextLabel_13.Size = UDim2.new(0, 338, 0, 50)
+
+
+TextLabel_13.Font = Enum.Font.Ubuntu
+
+
+TextLabel_13.Text = "SCRIPT!"
+
+
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_13.TextScaled = true
+
+
+TextLabel_13.TextSize = 14.000
+
+
+TextLabel_13.TextWrapped = true
+
+
+
+TextLabel_14.Parent = ScrollingFrame
+
+
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_14.BackgroundTransparency = 1.000
+
+
+TextLabel_14.Position = UDim2.new(0.0444007032, 0, 0.348380983, 0)
+
+
+TextLabel_14.Size = UDim2.new(0, 338, 0, 50)
+
+
+TextLabel_14.Font = Enum.Font.Ubuntu
+
+
+TextLabel_14.Text = "SUB NOW ?"
+
+
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_14.TextScaled = true
+
+
+TextLabel_14.TextSize = 14.000
+
+
+TextLabel_14.TextWrapped = true
+
+
+
+FirstFrame.Name = "FirstFrame"
+
+
+FirstFrame.Parent = main
+
+
+FirstFrame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+
+
+FirstFrame.Position = UDim2.new(-0.00180491991, 0, 0.106382981, 0)
+
+
+FirstFrame.Size = UDim2.new(0, 376, 0, 419)
+
+
+FirstFrame.Visible = false
+
+
+
+UICorner_7.Parent = FirstFrame
+
+
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+
+
+UIGradient_4.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 1.00), NumberSequenceKeypoint.new(1.00, 1.00)}
+
+
+UIGradient_4.Parent = FirstFrame
+
+
+
+TextLabel_15.Parent = FirstFrame
+
+
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_15.BackgroundTransparency = 1.000
+
+
+TextLabel_15.Position = UDim2.new(-0.000227501616, 0, 0.0149319768, 0)
+
+
+TextLabel_15.Size = UDim2.new(0, 376, 0, 50)
+
+
+TextLabel_15.Font = Enum.Font.Ubuntu
+
+
+TextLabel_15.Text = "Hello Thanks For Using"
+
+
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_15.TextScaled = true
+
+
+TextLabel_15.TextSize = 14.000
+
+
+TextLabel_15.TextWrapped = true
+
+
+
+TextLabel_16.Parent = FirstFrame
+
+
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_16.BackgroundTransparency = 1.000
+
+
+TextLabel_16.Position = UDim2.new(-0.000227501616, 0, 0.134263724, 0)
+
+
+TextLabel_16.Size = UDim2.new(0, 376, 0, 50)
+
+
+TextLabel_16.Font = Enum.Font.Ubuntu
+
+
+TextLabel_16.Text = "Don't forget to Subscribe"
+
+
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_16.TextScaled = true
+
+
+TextLabel_16.TextSize = 14.000
+
+
+TextLabel_16.TextWrapped = true
+
+
+
+TextLabel_17.Parent = FirstFrame
+
+
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_17.BackgroundTransparency = 1.000
+
+
+TextLabel_17.Position = UDim2.new(-0.000227501616, 0, 0.253595471, 0)
+
+
+TextLabel_17.Size = UDim2.new(0, 376, 0, 50)
+
+
+TextLabel_17.Font = Enum.Font.Ubuntu
+
+
+TextLabel_17.Text = "I'm happy that your using my Script"
+
+
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_17.TextScaled = true
+
+
+TextLabel_17.TextSize = 14.000
+
+
+TextLabel_17.TextWrapped = true
+
+
+
+TextLabel_18.Parent = FirstFrame
+
+
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_18.BackgroundTransparency = 1.000
+
+
+TextLabel_18.Position = UDim2.new(-0.000227501616, 0, 0.253595471, 0)
+
+
+TextLabel_18.Size = UDim2.new(0, 376, 0, 50)
+
+
+TextLabel_18.Font = Enum.Font.Ubuntu
+
+
+TextLabel_18.Text = "___________________"
+
+
+TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_18.TextScaled = true
+
+
+TextLabel_18.TextSize = 14.000
+
+
+TextLabel_18.TextWrapped = true
+
+
+
+TextLabel_19.Parent = FirstFrame
+
+
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_19.BackgroundTransparency = 1.000
+
+
+TextLabel_19.Position = UDim2.new(-0.000227501616, 0, 0.380087107, 0)
+
+
+TextLabel_19.Size = UDim2.new(0, 376, 0, 50)
+
+
+TextLabel_19.Font = Enum.Font.Ubuntu
+
+
+TextLabel_19.Text = "Press M to Close The Menu"
+
+
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_19.TextScaled = true
+
+
+TextLabel_19.TextSize = 14.000
+
+
+TextLabel_19.TextWrapped = true
+
+
+
+TextLabel_20.Parent = FirstFrame
+
+
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_20.BackgroundTransparency = 1.000
+
+
+TextLabel_20.Position = UDim2.new(-0.000227501616, 0, 0.499418855, 0)
+
+
+TextLabel_20.Size = UDim2.new(0, 376, 0, 50)
+
+
+TextLabel_20.Font = Enum.Font.Ubuntu
+
+
+TextLabel_20.Text = "Game"
+
+
+TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_20.TextScaled = true
+
+
+TextLabel_20.TextSize = 14.000
+
+
+TextLabel_20.TextWrapped = true
+
+
+
+TextLabel_21.Parent = FirstFrame
+
+
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_21.BackgroundTransparency = 1.000
+
+
+TextLabel_21.Position = UDim2.new(0.0183895193, 0, 0.936173022, 0)
+
+
+TextLabel_21.Size = UDim2.new(0, 363, 0, 26)
+
+
+TextLabel_21.Font = Enum.Font.Ubuntu
+
+
+TextLabel_21.Text = "Combat Warriors"
+
+
+TextLabel_21.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_21.TextScaled = true
+
+
+TextLabel_21.TextSize = 14.000
+
+
+TextLabel_21.TextWrapped = true
+
+
+
+Credit.Name = "Credit"
+
+
+Credit.Parent = main
+
+
+Credit.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+
+
+Credit.Position = UDim2.new(0.549673915, 0, 0, 0)
+
+
+Credit.Size = UDim2.new(0, 169, 0, 50)
+
+
+Credit.Font = Enum.Font.SourceSans
+
+
+Credit.Text = "Credit"
+
+
+Credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Credit.TextScaled = true
+
+
+Credit.TextSize = 14.000
+
+
+Credit.TextWrapped = true
+
+
+
+UICorner_8.Parent = Credit
+
+
+
+Login.Name = "Login"
+
+
+Login.Parent = CombatWarriors
+
+
+Login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Login.Position = UDim2.new(0.288461477, 0, 0.349606305, 0)
+
+
+Login.Size = UDim2.new(0, 552, 0, 236)
+
+
+
+UICorner_9.CornerRadius = UDim.new(0, 15)
+
+
+UICorner_9.Parent = Login
+
+
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(178, 178, 178)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+
+
+UIGradient_5.Offset = Vector2.new(0.0130642056, -0.0331228822)
+
+
+UIGradient_5.Rotation = 400.81509399414
+
+
+UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.11), NumberSequenceKeypoint.new(1.00, 0.51)}
+
+
+UIGradient_5.Parent = Login
+
+
+
+box.Name = "box"
+
+
+box.Parent = Login
+
+
+box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+box.BackgroundTransparency = 1.000
+
+
+box.Position = UDim2.new(0.01946472, 0, 0.279187828, 0)
+
+
+box.Size = UDim2.new(0, 396, 0, 50)
+
+
+
+password.Name = "password"
+
+
+password.Parent = box
+
+
+password.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+
+
+password.Position = UDim2.new(-0.00326252938, 0, -0.000812377955, 0)
+
+
+password.Size = UDim2.new(0, 535, 0, 50)
+
+
+password.Font = Enum.Font.SourceSans
+
+
+password.PlaceholderText = "Password"
+
+
+password.Text = ""
+
+
+password.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+password.TextSize = 22.000
+
+
+
+UICorner_10.Parent = password
+
+
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(178, 178, 178)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+
+
+UIGradient_6.Offset = Vector2.new(0.0130642056, -0.0331228822)
+
+
+UIGradient_6.Rotation = 400.81509399414
+
+
+UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.11), NumberSequenceKeypoint.new(1.00, 0.51)}
+
+
+UIGradient_6.Parent = password
+
+
+
+login.Name = "login"
+
+
+login.Parent = Login
+
+
+login.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+login.BackgroundTransparency = 1.000
+
+
+login.Position = UDim2.new(0.216545016, 0, 0.66497463, 0)
+
+
+login.Size = UDim2.new(0, 232, 0, 50)
+
+
+
+button.Name = "button"
+
+
+button.Parent = login
+
+
+button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+button.Position = UDim2.new(0.170188874, 0, -0.215025365, 0)
+
+
+button.Size = UDim2.new(0, 232, 0, 50)
+
+
+button.Font = Enum.Font.SourceSans
+
+
+button.Text = "Login"
+
+
+button.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+button.TextScaled = true
+
+
+button.TextSize = 14.000
+
+
+button.TextWrapped = true
+
+
+
+UICorner_11.Parent = button
+
+
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(178, 178, 178)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+
+
+UIGradient_7.Offset = Vector2.new(0.0130642056, -0.0331228822)
+
+
+UIGradient_7.Rotation = 400.81509399414
+
+
+UIGradient_7.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.11), NumberSequenceKeypoint.new(1.00, 0.51)}
+
+
+UIGradient_7.Parent = button
+
+
+
+TextLabel_22.Parent = Login
+
+
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_22.BackgroundTransparency = 1.000
+
+
+TextLabel_22.Position = UDim2.new(0, 0, 0.830508471, 0)
+
+
+TextLabel_22.Size = UDim2.new(0, 544, 0, 31)
+
+
+TextLabel_22.Font = Enum.Font.SourceSans
+
+
+TextLabel_22.Text = "Here Discord | https://discord.gg/emq5N4SQWp"
+
+
+TextLabel_22.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_22.TextScaled = true
+
+
+TextLabel_22.TextSize = 14.000
+
+
+TextLabel_22.TextWrapped = true
+
+
+
+TextLabel_23.Parent = Login
+
+
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_23.BackgroundTransparency = 1.000
+
+
+TextLabel_23.Size = UDim2.new(0, 552, 0, 65)
+
+
+TextLabel_23.Font = Enum.Font.Oswald
+
+
+TextLabel_23.Text = "Key on my Discord"
+
+
+TextLabel_23.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel_23.TextScaled = true
+
+
+TextLabel_23.TextSize = 14.000
+
+
+TextLabel_23.TextWrapped = true
+
+
+
+-- Scripts:
+
+
+
+local function FXQXLOW_fake_script() -- Menu.LocalScript 
+
+
+	local script = Instance.new('LocalScript', Menu)
+
+
+
+	script.Parent.MouseButton1Click:connect(function()
+
+
+		script.Parent.Parent.MenuFrame.Visible = true
+
+
+		script.Parent.Parent.CreditFrame.Visible = false
+
+
+		script.Parent.Parent.FirstFrame.Visible = false
+
+
+		wait(0.1)
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(FXQXLOW_fake_script)()
+
+
+local function LMDXIL_fake_script() -- main.LocalScript 
+
+
+	local script = Instance.new('LocalScript', main)
+
+
+
+	local UIS = game:GetService('UserInputService')
+
+
+	local frame = script.Parent
+
+
+	local dragToggle = nil
+
+
+	local dragSpeed = 0.25
+
+
+	local dragStart = nil
+
+
+	local startPos = nil
+
+
+	
+
+
+	local function updateInput(input)
+
+
+		local delta = input.Position - dragStart
+
+
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+
+
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+
+
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+
+
+	end
+
+
+	
+
+
+	frame.InputBegan:Connect(function(input)
+
+
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+
+
+			dragToggle = true
+
+
+			dragStart = input.Position
+
+
+			startPos = frame.Position
+
+
+			input.Changed:Connect(function()
+
+
+				if input.UserInputState == Enum.UserInputState.End then
+
+
+					dragToggle = false
+
+
+				end
+
+
+			end)
+
+
+		end
+
+
+	end)
+
+
+	
+
+
+	UIS.InputChanged:Connect(function(input)
+
+
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+
+
+			if dragToggle then
+
+
+				updateInput(input)
+
+
+			end
+
+
+		end
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(LMDXIL_fake_script)()
+
+
+local function TIBWWHK_fake_script() -- main.LocalScript 
+
+
+	local script = Instance.new('LocalScript', main)
+
+
+
+	player = game.Players.LocalPlayer
+
+
+	
+
+
+	player:GetMouse().KeyDown:Connect(function(key)
+
+
+		if key == "m" and script.Parent.Visible == false then
+
+
+			script.Parent.Visible = true
+
+
+		else
+
+
+			if key == "m" and script.Parent.Visible == true then
+
+
+				script.Parent.Visible = false
+
+
+			end
+
+
+		end
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(TIBWWHK_fake_script)()
+
+
+local function EXOM_fake_script() -- Credit.LocalScript 
+
+
+	local script = Instance.new('LocalScript', Credit)
+
+
+
+	script.Parent.MouseButton1Click:connect(function()
+
+
+		script.Parent.Parent.MenuFrame.Visible = false
+
+
+		script.Parent.Parent.CreditFrame.Visible = true
+
+
+		script.Parent.Parent.FirstFrame.Visible = false
+
+
+		wait(0.1)
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(EXOM_fake_script)()
+
+
+local function SYXYB_fake_script() -- button.LocalScript 
+
+
+	local script = Instance.new('LocalScript', button)
+
+
+
+	local password = script.Parent.Parent.Parent.box.password
+
+
+	local main = script.Parent.Parent.Parent.Parent.main    --change these if you didnt do what i did
+
+
+	local login = script.Parent.Parent.Parent
+
+
+	
+
+
+	main.Visible = false
+
+
+	
+
+
+	script.Parent.MouseButton1Click:Connect(function()
+
+
+		if password.Text == "g9kamm98v" or
+
+
+			password.Text == "r8kmv" then
+
+
+			login.Visible = false
+
+
+			main.Visible = true --subscribe to IamTow
+
+
+		end
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(SYXYB_fake_script)()
+
+
+local function AJOQ_fake_script() -- Login.LocalScript 
+
+
+	local script = Instance.new('LocalScript', Login)
+
+
+
+	local UIS = game:GetService('UserInputService')
+
+
+	local frame = script.Parent
+
+
+	local dragToggle = nil
+
+
+	local dragSpeed = 0.25
+
+
+	local dragStart = nil
+
+
+	local startPos = nil
+
+
+	
+
+
+	local function updateInput(input)
+
+
+		local delta = input.Position - dragStart
+
+
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+
+
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+
+
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+
+
+	end
+
+
+	
+
+
+	frame.InputBegan:Connect(function(input)
+
+
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+
+
+			dragToggle = true
+
+
+			dragStart = input.Position
+
+
+			startPos = frame.Position
+
+
+			input.Changed:Connect(function()
+
+
+				if input.UserInputState == Enum.UserInputState.End then
+
+
+					dragToggle = false
+
+
+				end
+
+
+			end)
+
+
+		end
+
+
+	end)
+
+
+	
+
+
+	UIS.InputChanged:Connect(function(input)
+
+
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+
+
+			if dragToggle then
+
+
+				updateInput(input)
+
+
+			end
+
+
+		end
+
+
+	end)
+
+
+end
+
+
+coroutine.wrap(AJOQ_fake_script)()
+
+
